@@ -1,0 +1,19 @@
+.container-blocks {
+    color: #4D4D4D;
+    margin: 10px 50px;
+}
+
+.text-blocks {
+    margin: 70px;
+    text-align: center;
+}
+
+
+.blocks-component {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+    font-size: x-small;
+
+}
