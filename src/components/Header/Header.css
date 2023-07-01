@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.header {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-tabs a {
+    color: #4D4D4D;
+    text-decoration: none;
+}
+
+.header-tabs {
+    display: flex;
+}
+
+.header-tab {
+    margin: .7rem;
+}
+
+.register-button button {
+    background-color: #4CAF4F;
+    color: white;
+    border-style: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
