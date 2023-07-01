@@ -1,0 +1,25 @@
+
+.container-ImageText {
+    display: flex;
+    margin: 20px 40px;
+    padding: 10px 50px;
+    font-size: small;
+}
+
+.paragraph {
+    text-align: justify;
+}
+
+button {
+    background-color: #4CAF4F;
+    color: white;
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #51bb55;
+}
