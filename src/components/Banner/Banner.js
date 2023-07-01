@@ -1,6 +1,5 @@
 import React from "react";
 import "./Banner.css";
-import bannerImage from "./Illustration.png"
 
 
 function Banner(props) {

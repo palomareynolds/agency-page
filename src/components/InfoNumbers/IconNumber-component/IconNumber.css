@@ -1,0 +1,11 @@
+.icon-container {
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+    line-height: 1px;
+}
+.icon-container img {
+    height: 25px;
+    margin: 10px;
+    margin-top: 15px;
+}

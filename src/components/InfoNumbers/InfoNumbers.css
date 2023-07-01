@@ -1,0 +1,17 @@
+.container-numbers {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F7FA;
+    padding: 0px 50px;
+    
+}
+
+.green-text1 {
+    color: #4CAF4F;
+}
+
+.member-numbers {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
