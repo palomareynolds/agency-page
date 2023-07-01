@@ -3,19 +3,19 @@ import "./Banner.css";
 import bannerImage from "./Illustration.png"
 
 
-function Banner() {
+function Banner(props) {
     return (
         <div className="container">
             <div className="text">
-                <h1>Lessons and insights</h1>
+                <h1>{props.text1}</h1>
                 <div className="green-text">
-                    <h1>from 8 years</h1>
+                    <h1>{props.text2}</h1>
                 </div>
-                <p>Where to grow your business as a photographer: site or social media?</p>
-                <button>Register</button>
+                <p>{props.text3}</p>
+                <button>{props.button}</button>
             </div>
             <div className="banner-image">
-                <img src={bannerImage}/>
+                <img src={props.image}/>
             </div>
 
             
