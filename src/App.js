@@ -62,7 +62,9 @@ function App() {
       Morbi laoreet elit at ligula molestie, nec molestie mi blandit. 
       Curabitur id nibh id sem dignissim finibus ac sit amet magna."
       author="Tim Smith"
-      company="British Dragon Boat Racing Association"/>
+      company="British Dragon Boat Racing Association"
+      meet="Meet all customers →"/>
+
 
 
 

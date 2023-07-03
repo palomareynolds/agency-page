@@ -1,0 +1,23 @@
+.tesla-container {
+    display: flex;
+    justify-content: center;
+    background-color: #F5F7FA;
+    color: #4D4D4D;
+    padding: 20px;
+}
+
+.tesla-text {
+    padding: 10px 10px;
+    text-align: justify;
+    font-size: small;
+}
+
+.icons-tesla {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    margin: 30px 0px;
+}
+.meet {
+    margin-top: 10px;
+}

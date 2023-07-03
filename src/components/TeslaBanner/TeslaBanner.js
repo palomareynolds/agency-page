@@ -1,4 +1,5 @@
 import React from "react"; 
+import "./TeslaBanner.css";
 import Icons from "../OurClients/Icons-Banner/Icons";
 import icon1 from "../OurClients/icons-img/Logo.png";
 import icon2 from "../OurClients/icons-img/Logo (1).png";
@@ -13,17 +14,19 @@ function TeslaBanner(props) {
             <img src={props.image} alt="#"/>
             <div className="tesla-text">
                 {props.text}
-                {props.author}
+                <h3 className="green-text">{props.author}</h3>
                 {props.company}
+                <div className="icons-tesla">
+                    <Icons image={icon1}/>
+                    <Icons image={icon2}/>
+                    <Icons image={icon3}/>
+                    <Icons image={icon4}/>
+                    <Icons image={icon5}/>
+                    <Icons image={icon6}/>
+                    <p className="green-text meet"><a>{props.meet}</a></p>
+                </div>   
             </div>  
-            <div className="icons">
-                <Icons image={icon1}/>
-                <Icons image={icon2}/>
-                <Icons image={icon3}/>
-                <Icons image={icon4}/>
-                <Icons image={icon5}/>
-                <Icons image={icon6}/>
-            </div>    
+             
         </div>
         
     );    
