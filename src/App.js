@@ -5,6 +5,7 @@ import ImageText from './components/Image-Text/ImageText';
 import OurClients from './components/OurClients/OurClients';
 import InfoNumbers from './components/InfoNumbers/InfoNumbers';
 import TextBlocks from './components/TextBlocks/TextBlocks';
+import TeslaBanner from './components/TeslaBanner/TeslaBanner';
 import photoBanner1 from "./img/computer.png"; 
 import ImageTextimage from './img/couple.png';
 import imagePana from './img/pana.png';
@@ -51,6 +52,12 @@ function App() {
         Praesent felis est, finibus et nisi ac, hendrerit venenatis libero."
         button="Learn More"
       />
+
+      <TeslaBanner/>
+
+
+
+      
 
 
 
