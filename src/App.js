@@ -9,6 +9,7 @@ import TeslaBanner from './components/TeslaBanner/TeslaBanner';
 import photoBanner1 from "./img/computer.png"; 
 import ImageTextimage from './img/couple.png';
 import imagePana from './img/pana.png';
+import teslaLogo from "./components/TeslaBanner/image 9.png";
 
 
 function App() {
@@ -53,7 +54,15 @@ function App() {
         button="Learn More"
       />
 
-      <TeslaBanner/>
+      <TeslaBanner 
+      image={teslaLogo}
+      text="Maecenas dignissim justo eget nulla rutrum molestie. 
+      Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. 
+      Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. 
+      Morbi laoreet elit at ligula molestie, nec molestie mi blandit. 
+      Curabitur id nibh id sem dignissim finibus ac sit amet magna."
+      author="Tim Smith"
+      company="British Dragon Boat Racing Association"/>
 
 
 

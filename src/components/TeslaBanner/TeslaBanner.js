@@ -10,28 +10,25 @@ import icon6 from "../OurClients/icons-img/Logo (5).png";
 function TeslaBanner(props) {
     return (
         <div className="tesla-container">
-            <h1>paloma</h1>
-            <div className="tesla-logo">
-                <img src={props.image} alt="#"/>
-            </div>
-            <div className="tesla-tex">
+            <img src={props.image} alt="#"/>
+            <div className="tesla-text">
                 {props.text}
                 {props.author}
                 {props.company}
+            </div>  
+            <div className="icons">
                 <Icons image={icon1}/>
                 <Icons image={icon2}/>
                 <Icons image={icon3}/>
                 <Icons image={icon4}/>
                 <Icons image={icon5}/>
                 <Icons image={icon6}/>
-
-
-            </div>
-
-
+            </div>    
         </div>
+        
+    );    
 
-    )
+
 }
 
 export default TeslaBanner;
