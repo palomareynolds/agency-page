@@ -6,10 +6,12 @@ import OurClients from './components/OurClients/OurClients';
 import InfoNumbers from './components/InfoNumbers/InfoNumbers';
 import TextBlocks from './components/TextBlocks/TextBlocks';
 import TeslaBanner from './components/TeslaBanner/TeslaBanner';
+import ThreeImagesBlock from './components/ThreeImagesBlock/ThreeImgesBlock';
 import photoBanner1 from "./img/computer.png"; 
 import ImageTextimage from './img/couple.png';
 import imagePana from './img/pana.png';
 import teslaLogo from "./components/TeslaBanner/image 9.png";
+import person from "./img/image 18.png"
 
 
 function App() {
@@ -55,15 +57,30 @@ function App() {
       />
 
       <TeslaBanner 
-      image={teslaLogo}
-      text="Maecenas dignissim justo eget nulla rutrum molestie. 
-      Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. 
-      Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. 
-      Morbi laoreet elit at ligula molestie, nec molestie mi blandit. 
-      Curabitur id nibh id sem dignissim finibus ac sit amet magna."
-      author="Tim Smith"
-      company="British Dragon Boat Racing Association"
-      meet="Meet all customers →"/>
+        image={teslaLogo}
+        text="Maecenas dignissim justo eget nulla rutrum molestie. 
+        Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. 
+        Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. 
+        Morbi laoreet elit at ligula molestie, nec molestie mi blandit. 
+        Curabitur id nibh id sem dignissim finibus ac sit amet magna."
+        author="Tim Smith"
+        company="British Dragon Boat Racing Association"
+        meet="Meet all customers →"
+        />
+
+      <ThreeImagesBlock  
+        title="Caring is the new marketing"
+        text="The Nextcent blog is the best place to read about the latest membership insights, trends and more. 
+        See who's joining the community, 
+        read about how our community are increasing their membership income and lot's more.​"
+        image={person}
+        imageText="Creating Streamlined Safeguarding Processes with OneRen"
+        link="Readmore →"
+        />
+
+
+
+
 
 
 

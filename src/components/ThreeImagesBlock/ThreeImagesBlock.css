@@ -1,0 +1,18 @@
+.threeImages-container {
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.three-images {
+    display: flex;
+    justify-content: center;
+}
+
+.imageText {
+    background-color: #F5F7FA;
+    /* padding: 20px;
+    margin: -30px 70px;
+    z-index: -1;
+     */
+
+}
