@@ -3,8 +3,8 @@
     color: #4D4D4D;
 }
 
-/* .three-blocks {
-    display: flex;
-    justify-content: center;
-} */
+.three-blocks {
+    justify-content: space-between;
+}
+  
 

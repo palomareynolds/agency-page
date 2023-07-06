@@ -13,7 +13,6 @@ function ThreeImagesBlock(props) {
             </div>
             <div className="three-blocks">
                 <OverlapImg/>
-
             </div>
         </div>
 

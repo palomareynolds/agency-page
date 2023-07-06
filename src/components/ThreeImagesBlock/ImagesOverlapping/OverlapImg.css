@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.img1 {
+.img {
     position: absolute;
     top: 0;
     left: 0;
@@ -22,6 +22,7 @@
 .imageText {
     text-align: center;
     font-weight: 600;
+    height: 110px;
     margin: 12px;
     font-size: 15px;
     

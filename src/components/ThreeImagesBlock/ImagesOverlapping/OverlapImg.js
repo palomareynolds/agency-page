@@ -14,7 +14,7 @@ function OverlapImg(props) {
                     <img src={img1}/>
                 </div>
                 <div className="imageText">
-                    <p>{props.title}</p>
+                    <p>Creating Streamlined Safeguarding Processes with OneRen</p>
                     <div className="link">
                         <p>Readmore →</p>
                     </div>
@@ -25,7 +25,7 @@ function OverlapImg(props) {
                     <img src={img2}/>
                 </div>
                 <div className="imageText">
-                    <p>{props.title}</p>
+                    <p>What are your safeguarding responsibilities and how can you manage them?</p>
                     <div className="link">
                         <p>Readmore →</p>
                     </div>
@@ -36,7 +36,7 @@ function OverlapImg(props) {
                     <img src={img3}/>
                 </div>
                 <div className="imageText">
-                    <p>{props.title}</p>
+                    <p>Revamping the Membership Model with Triathlon Model Australia</p>
                     <div className="link">
                         <p>Readmore →</p>
                     </div>
