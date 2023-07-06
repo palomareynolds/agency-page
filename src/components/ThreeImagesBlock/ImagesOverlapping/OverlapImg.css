@@ -1,0 +1,37 @@
+
+.threeImages {
+    position: relative;
+}
+
+.img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.imageText {
+    background-color: #F5F7FA;
+    position: absolute;
+    top: 135px;
+    left: 0;
+    padding: 10px 0px;
+    width: 230px;
+    border-radius: 10px;
+}
+
+.imageText {
+    text-align: center;
+    font-weight: 600;
+    margin: 12px;
+    font-size: 15px;
+    
+}
+
+.link {
+    color: #4CAF4F;
+}
+
+.three-images {
+    display: flex;
+    justify-content: center;
+}

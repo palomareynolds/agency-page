@@ -11,7 +11,7 @@ import photoBanner1 from "./img/computer.png";
 import ImageTextimage from './img/couple.png';
 import imagePana from './img/pana.png';
 import teslaLogo from "./components/TeslaBanner/image 9.png";
-import person from "./img/image 18.png"
+import OverlapImg from './components/ThreeImagesBlock/ImagesOverlapping/OverlapImg';
 
 
 function App() {
@@ -73,9 +73,6 @@ function App() {
         text="The Nextcent blog is the best place to read about the latest membership insights, trends and more. 
         See who's joining the community, 
         read about how our community are increasing their membership income and lot's more.​"
-        image={person}
-        imageText="Creating Streamlined Safeguarding Processes with OneRen"
-        link="Readmore →"
         />
 
 
