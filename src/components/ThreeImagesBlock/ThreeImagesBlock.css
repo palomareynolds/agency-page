@@ -1,10 +1,13 @@
 .threeImages-container {
     text-align: center;
     color: #4D4D4D;
+    font-size: small;
 }
 
-.three-blocks {
-    justify-content: space-between;
+.title {
+    width: 70%;
+    margin: 0px auto;
 }
+
   
 
