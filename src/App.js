@@ -75,6 +75,8 @@ function App() {
         read about how our community are increasing their membership income and lot's more.​"
         />
 
+        <footer/>
+
 
 
 

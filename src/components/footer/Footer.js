@@ -3,8 +3,10 @@ import React from "react";
 
 function Footer() {
     return (
-        <p></p>
+        <p>hello</p>
 
 
     );
 }
+
+export default Footer;
