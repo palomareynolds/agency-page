@@ -11,7 +11,7 @@ import photoBanner1 from "./img/computer.png";
 import ImageTextimage from './img/couple.png';
 import imagePana from './img/pana.png';
 import teslaLogo from "./components/TeslaBanner/image 9.png";
-import OverlapImg from './components/ThreeImagesBlock/ImagesOverlapping/OverlapImg';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -75,7 +75,7 @@ function App() {
         read about how our community are increasing their membership income and lot's more.​"
         />
 
-        <footer/>
+        <Footer title="Pellentesque suscipit fringilla libero eu." button="Get a Demo →" />
 
 
 
