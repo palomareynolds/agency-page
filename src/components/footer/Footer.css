@@ -1,20 +1,33 @@
 .footer-container {
     margin: 100px 0px;
     color: #263238;
+    font-size: small;
 }
 
 .up-footer {
     background-color: #F5F7FA;
     text-align: center;
     padding: 20px;   
+    height: 120px;
+    margin-top: 20px;
 }
 
 .black-footer {
-    background-color: #263238;
+    background-color: #0B0D17;
     color: #F5F7FA;
     display: flex;
     justify-content: space-between;
+    padding: 20px 80px;
 
+}
+
+.logo-footer {
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.logo-footer img {
+    margin-top: 10px;
 }
 
 .black-footer a {
@@ -27,3 +40,13 @@
     flex-direction: column;
     line-height: 24px;
 }
+
+.company-col {
+    margin-left: 50px;
+}
+
+.update-col {
+    margin-right: 20px;
+}
+
+
